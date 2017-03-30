@@ -1,14 +1,8 @@
-# KWM Menubar Status Indicator
+# OSX Menubar quick access
 
-Simple Python script to display a menubar status indicator.
+Python script to add Customisable MenuBar item for OSX
 
-![Menubar](screenshot/capture.png)
-
-## Download
-
-[Download](dist/menu_status.zip?raw=true)
-
-## Build from source
+## Build
 
 ```
 $ pip install pyobjc py2app
