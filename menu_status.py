@@ -19,8 +19,9 @@ class QuickAccessAppDelegate(NSObject):
         icon = NSImage.alloc().initByReferencingFile_('app.icns')
         icon.setScalesWhenResized_(True)
         icon.setSize_((20, 20))
+        self.statusItem.setToolTip_('Quick Access')
+        self.statusItem.setHighlightMode_(1)
         self.statusItem.setImage_(icon)
-        # self.statusItem.setTitle_("Quick Access")
 
         # menu
         self.menu = NSMenu.alloc().init()
