@@ -8,7 +8,7 @@ from Foundation import *
 from AppKit import *
 from PyObjCTools import AppHelper
 
-__VERSION__ = "0.1"
+__VERSION__ = "0.1.0"
 
 class QuickAccessAppDelegate(NSObject):
     items = {}
