@@ -16,7 +16,11 @@ class QuickAccessAppDelegate(NSObject):
         self.statusItem = NSStatusBar.systemStatusBar().statusItemWithLength_(NSVariableStatusItemLength)
         self.statusItem.setHighlightMode_(FALSE)
         self.statusItem.setEnabled_(TRUE)
-        self.statusItem.setTitle_("Quick Access")
+        icon = NSImage.alloc().initByReferencingFile_('app.icns')
+        icon.setScalesWhenResized_(True)
+        icon.setSize_((20, 20))
+        self.statusItem.setImage_(icon)
+        # self.statusItem.setTitle_("Quick Access")
 
         # menu
         self.menu = NSMenu.alloc().init()
