@@ -7,15 +7,15 @@ OPTIONS = {
     'argv_emulation': True,
     'plist': {
         'LSUIElement': True,
+        'CFBundleName': APP_NAME,
+        'CFBundleDisplayName': APP_NAME,
+        'CFBundleGetInfoString': "Making Sandwiches",
+        'CFBundleIdentifier': "com.vbrosseau.menubar-quick-access",
+        'CFBundleVersion': "0.1.0",
+        'CFBundleShortVersionString': "0.1.0",
+        'NSHumanReadableCopyright': u"Valentin Brosseau"
     },
     'iconfile': 'app.icns',
-    'CFBundleName': APP_NAME,
-    'CFBundleDisplayName': APP_NAME,
-    'CFBundleGetInfoString': "Making Sandwiches",
-    'CFBundleIdentifier': "com.vbrosseau.menubar-quick-access",
-    'CFBundleVersion': "0.1.0",
-    'CFBundleShortVersionString': "0.1.0",
-    'NSHumanReadableCopyright': u"Valentin Brosseau"
     'packages': [],
 }
 
