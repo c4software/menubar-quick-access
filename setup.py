@@ -9,7 +9,7 @@ OPTIONS = {
         'LSUIElement': True,
         'CFBundleName': APP_NAME,
         'CFBundleDisplayName': APP_NAME,
-        'CFBundleGetInfoString': "Making Sandwiches",
+        'CFBundleGetInfoString': "Create Menu",
         'CFBundleIdentifier': "com.vbrosseau.menubar-quick-access",
         'CFBundleVersion': "0.1.0",
         'CFBundleShortVersionString': "0.1.0",
