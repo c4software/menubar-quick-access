@@ -2,6 +2,6 @@
   "Enable Ethernet": "networksetup -setnetworkserviceenabled Ethernet on",
   "Disable Ethernet": "networksetup -setnetworkserviceenabled Ethernet off",
   "separator": "",
-  "Hi": "say Hi",
-  "Hi2": "say Hello"
+  "Say Hi": "say Hi",
+  "Say Hello": "say Hello"
 }
