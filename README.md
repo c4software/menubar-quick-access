@@ -2,6 +2,8 @@
 
 Python script to add Customisable MenuBar item for OSX
 
+![Menubar](screenshot/capture.png)
+
 ## Build
 
 ```
